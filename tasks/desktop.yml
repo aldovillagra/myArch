@@ -1,0 +1,56 @@
+- name: Install Desktop Aplication
+  pacman: name={{item}} state=installed
+  with_items:
+    - gdm
+    - gnome
+    - i3
+    - dmenu
+    - ttf-liberation
+    - ttf-anonymous-pro
+    - ttf-droid
+    - ttf-roboto
+    - adobe-source-code-pro-fonts
+    - adobe-source-sans-pro-fonts
+    - cantarell-fonts
+    - gsfonts
+    - amule
+    - atom
+    - audacity
+    - calibre
+    - evince
+    - eog
+    - eog-plugins
+    - evolution
+    - evolution-ews
+    - gimp
+    - gparted
+    - guake
+    - libreoffice-fresh
+    - openshot
+    - shutter
+    - simplescreenrecorder
+    - smplayer
+    - terminator
+    - texlive-most
+    - texmaker
+    - transmission-gtk
+    - networkmanager
+    - networkmanager-openconnect
+    - networkmanager-openvpn
+    - networkmanager-vpnc
+    - syncthing-gtk
+    - syncthing-inotify
+    - usbutils
+    - usb_modeswitch
+    - modemmanager
+    - mobile-broadband-provider-info
+    - nm-connection-editor
+    - modem-manager-gui
+    - xchat
+
+
+- systemd: state=started enable=yes name=NetworkManager
+
+- systemd: state=started enable=yes name=ModemManager
+
+- systemd: state=started enable=yes name=gdm

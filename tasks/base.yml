@@ -1,0 +1,22 @@
+- name: Install Base System
+  pacman: name={{item}} state=installed
+  with_items:
+    - git
+    - openvpn
+    - vpnc
+    - p7zip
+    - unrar
+    - aspell-es
+    - hunspell-es
+    - iotop
+    - htop
+    - scrot
+    - tmux
+    - screenfetch
+    - keychain
+    - vim
+    - openssh
+    - syncthing
+    - zsh
+    - rsync
+    - net-tools

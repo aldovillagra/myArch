@@ -1,2 +1,15 @@
 ---
 # tasks file for myArch
+# Run the equivalent of "pacman -Syu" as a separate step
+- pacman:
+    name: archlinux-keyring
+    state: latest
+    update_cache: yes
+
+- pacman:
+    update_cache: yes
+    upgrade: yes
+
+- include: base.yml
+- include: desktop.yml
+- include: vm.yml

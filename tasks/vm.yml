@@ -1,0 +1,11 @@
+- name: Install Virtual Platform
+  pacman: name={{item}} state=installed
+  with_items:
+    - base-devel
+    - linux-headers
+    - virtualbox
+    - virtualbox-guest-iso
+    - virtualbox-host-dkms
+    - vagrant
+    - docker
+    - ansible
