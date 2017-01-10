@@ -11,6 +11,7 @@
     upgrade: yes
 
 - include: base.yml
+- include: yaourt.yml
 - include: users.yml
 - include: desktop.yml
 - include: vm.yml
