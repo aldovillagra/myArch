@@ -46,6 +46,8 @@
     - nm-connection-editor
     - modem-manager-gui
     - xchat
+    - remmina
+    - freerdp
 
 
 - systemd: state=started enable=yes name=NetworkManager
