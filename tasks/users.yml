@@ -3,7 +3,6 @@
     comment: "Aldo Villagra"
     uid: 1100
     groups: wheel
-    password: "{{ password }}"
 
 
 - lineinfile:
