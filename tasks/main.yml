@@ -6,9 +6,9 @@
     state: latest
     update_cache: yes
 
- - pacman:
-     update_cache: yes
-     upgrade: yes
+- pacman:
+    update_cache: yes
+    upgrade: yes
 
 - include: base.yml
 - include: users.yml
