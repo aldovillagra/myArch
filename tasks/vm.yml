@@ -2,6 +2,7 @@
   pacman: name={{item}} state=installed
   with_items:
     - base-devel
+    - dkms
     - linux-headers
     - virtualbox
     - virtualbox-guest-iso

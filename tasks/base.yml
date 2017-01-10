@@ -20,3 +20,10 @@
     - zsh
     - rsync
     - net-tools
+    - expect
+    - sudo
+    - gpm
+    - bwm-ng
+
+
+- systemd: state=started enabled=yes name=gpm

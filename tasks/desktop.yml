@@ -1,10 +1,11 @@
 - name: Install Desktop Aplication
   pacman: name={{item}} state=installed
   with_items:
-    - gdm
-    - gnome
-    - i3
-    - dmenu
+    - lightdm
+    - lightdm-gtk-greeter
+    - lightdm-gtk-greeter-settings
+    - deepin
+    - deepin-extra
     - ttf-liberation
     - ttf-anonymous-pro
     - ttf-droid

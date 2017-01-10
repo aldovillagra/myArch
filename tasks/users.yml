@@ -1,0 +1,13 @@
+- user:
+    name: aldo
+    comment: "Aldo Villagra"
+    uid: 1100
+    groups: wheel
+    password: "{{ password }}"
+
+
+- lineinfile:
+    dest: /etc/sudoers
+    state: present
+    regexp: '^%wheel'
+    line: '%wheel ALL=(ALL) NOPASSWD: ALL'
