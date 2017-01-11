@@ -45,13 +45,13 @@
     - mobile-broadband-provider-info
     - nm-connection-editor
     - modem-manager-gui
-    - xchat
+    - hexchat
     - remmina
     - freerdp
 
 
-- systemd: state=started enable=yes name=NetworkManager
+- systemd: state=started enabled=yes name=NetworkManager
 
-- systemd: state=started enable=yes name=ModemManager
+- systemd: state=started enabled=yes name=ModemManager
 
-- systemd: state=started enable=yes name=gdm
+- systemd: state=started enabled=yes name=gdm

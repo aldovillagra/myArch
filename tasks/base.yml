@@ -24,6 +24,8 @@
     - sudo
     - gpm
     - bwm-ng
+    - cowfortune
+    - lolcat
 
 
 - systemd: state=started enabled=yes name=gpm
