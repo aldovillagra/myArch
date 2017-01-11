@@ -3,6 +3,7 @@
   with_items:
     - git
     - openvpn
+    - easy-rsa
     - vpnc
     - p7zip
     - unrar
