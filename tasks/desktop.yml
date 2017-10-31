@@ -3,6 +3,7 @@
   with_items:
     - gdm
     - gnome
+    - gnome-tweak-tool
     - ttf-liberation
     - ttf-anonymous-pro
     - ttf-droid
@@ -28,6 +29,7 @@
     - terminator
     - texlive-most
     - texmaker
+    - texstudio
     - transmission-gtk
     - networkmanager
     - networkmanager-openconnect
