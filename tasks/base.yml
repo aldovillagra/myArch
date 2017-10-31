@@ -27,6 +27,7 @@
     - bwm-ng
     - cowfortune
     - lolcat
+    - wget
 
 
 - systemd: state=started enabled=yes name=gpm

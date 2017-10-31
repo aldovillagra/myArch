@@ -10,8 +10,8 @@
     update_cache: yes
     upgrade: yes
 
-- include: base.yml
-- include: yaourt.yml
-- include: users.yml
-- include: desktop.yml
-- include: vm.yml
+- import_tasks: base.yml
+- import_tasks: yaourt.yml
+#- import_tasks: users.yml
+- import_tasks: desktop.yml
+- import_tasks: vm.yml

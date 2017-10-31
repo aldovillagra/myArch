@@ -5,8 +5,8 @@ driver:
   name: vagrant
 vagrant:
   platforms:
-    - name: archlinux
-      box: archlinux
+    - name: terrywang/archlinux
+      box: terrywang/archlinux
   providers:
     - name: virtualbox
       type: virtualbox

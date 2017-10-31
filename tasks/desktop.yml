@@ -1,11 +1,8 @@
 - name: Install Desktop Aplication
   pacman: name={{item}} state=installed
   with_items:
-    - lightdm
-    - lightdm-gtk-greeter
-    - lightdm-gtk-greeter-settings
-    - deepin
-    - deepin-extra
+    - gdm
+    - gnome
     - ttf-liberation
     - ttf-anonymous-pro
     - ttf-droid
@@ -25,7 +22,7 @@
     - gparted
     - libreoffice-fresh
     - openshot
-    - shutter
+#    - shutter
     - simplescreenrecorder
     - smplayer
     - terminator
