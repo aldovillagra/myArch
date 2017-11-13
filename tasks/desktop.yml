@@ -47,6 +47,7 @@
     - hexchat
     - remmina
     - freerdp
+    - tigervnc
 
 
 - systemd: state=started enabled=yes name=NetworkManager
